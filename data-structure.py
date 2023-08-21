@@ -105,17 +105,115 @@ Syntax:
 set_name = {}
 set_name = set()
 
-
-Dictionary -
-Syntax:
-dict_name = {
-    'key':'value'
-}
-dict_name = dict()
-"""
-
 nums = [1,1,2,3,4,5,6,7,8,9,10]
 tokens = tuple(nums)
 final_tokens = set(tokens)
 
 print(final_tokens)
+
+print(set([1,2,1,1,1,1,2,2,2,3,3,34,5,4,]))
+
+
+Dictionary -
+Syntax:
+dict_name = {
+    'key':'value',
+    'key':'value',
+
+}
+dict_name = dict()
+"""
+
+contacts = {
+    'a':{
+        'aman':{
+            'mobile':['0900909090', '6565434387'],
+            'email':['aman@gmail.com']
+        },
+        'ajay':{
+            'mobile':['56566256652']
+        }
+    },
+    'b':{
+        'babbn':{
+            'mobile':['9090909090']
+        }
+    }
+}
+# print(contacts)
+# print(len(contacts))
+# print(type(contacts))
+
+# access dict
+# print(contacts['a'])
+# print(contacts['b'])
+
+# print(contacts['a']['aman'])
+# print(contacts['a']['aman']['mobile'][1])
+# print(type(contacts['a']['aman']))
+
+# 'update','clear', 'copy',  'get', 'items','values', 'keys', 'pop', 'popitem',  'fromkeys','setdefault', 
+# print(dir(contacts))
+
+new_dict = {
+    'c':{
+        'chaman':{
+            'mobile':['0000909090']
+        },
+        'chintu':{
+            'mobile':['243243428']
+        }
+    },
+    'd':{
+        'dhiren':{
+            'mobile':['656565656565']
+        }
+    }
+}
+
+contacts.update(new_dict)
+
+# print(contacts.get('d'))
+# contacts.clear()
+
+# print(contacts.keys())
+# print(contacts.values())
+# print(contacts.items())
+
+# for k in contacts.keys():
+#     print(k)
+# for v in contacts.values():
+#     print(v)
+# for k, v in contacts.items():
+#     print(k, v)
+
+# contacts.popitem()
+# contacts.pop('c')
+
+
+# print(contacts)
+
+
+# car = {
+#     'model':'XYZ',
+#     'price':'25l',
+#     'color':'blue',
+#     'is_EV':True
+# }
+
+# car.setdefault('color','red')
+# car.setdefault('is_EV',False)
+# print(car)
+
+# products = dict()
+# veg = ['tomato', 'potato', 'banana']
+# price = 50
+
+# print(products.fromkeys(veg, price))
+
+
+# print(contacts)
+# user = {
+#     'name':input("Enter your name : ")
+# }
+# print(user)
