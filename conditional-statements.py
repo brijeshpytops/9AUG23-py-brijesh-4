@@ -69,14 +69,16 @@ else:
 
 """
 
-age = input("Enter your age : ")
-age = int(age)
-if(age>=18):
-    weight = input("Enter your weight : ")
-    weight = float(weight)
-    if(weight >= 50):
-        print("You can donate")
-    else:
-        print(f"You can not donate your weight is {weight}")
-else:
-    print(f"You can not donate your age is {age}")
+# age = input("Enter your age : ")
+# age = int(age)
+# if(age>=18):
+#     weight = input("Enter your weight : ")
+#     weight = float(weight)
+#     if(weight >= 50):
+#         print("You can donate")
+#     else:
+#         print(f"You can not donate your weight is {weight}")
+# else:
+#     print(f"You can not donate your age is {age}")
+
+

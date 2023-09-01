@@ -171,3 +171,58 @@ num = 11
 # * * * * *   *
 # *           *
 # * * * * * * * 
+
+# while (condition):
+    # block of code 
+
+# while(1):
+#     print("brijesh")
+
+
+
+
+# while(1):
+#     age = int(input("Enter your age : "))
+#     if (age >= 18):
+#         weight = int(input("Enter your weight : "))
+#         if(weight >= 50):
+#             print("You can donate")
+#         else:
+#             print("You can not donate")
+#     else:
+#         print("You can not donate")
+
+# start = 1
+# while(start<=10):
+#     print("Num : ", start)
+#     start += 1
+
+
+# 0 1 1 2 3 5 8....
+# n1 = 0
+# n2 = 1
+# num = 10
+# i = 1
+# while(i<=num):
+#     if i == 1:
+#         print(n1, end=" ")
+#     elif i == 2:
+#         print(n2, end=" ")
+#     else: 
+#         nth = n1 + n2  
+#         n1 = n2
+#         n2 = nth
+        
+#         print(nth, end=" ")
+#     i += 1
+
+# 1 * 2 * 3 * 4 * 5
+# num = 5 # 120
+# total = 1
+# i = 1 
+# while (num >= i):
+#     total *= num
+#     num -= 1
+# print("Factorial: ", total)
+
+
