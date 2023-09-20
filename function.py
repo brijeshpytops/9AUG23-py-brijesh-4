@@ -88,13 +88,31 @@ function_name(para1, para2.. paran....)
 # run()
 # print(a)
 
-# def lowerCase(func):
-#     def wrapper():
-#         return func(name_.lower())
-#     return wrapper
 
-# @lowerCase
-# def string(name):
-#     return  name
-# name_  = input("Enter your name : ")
-# print(string(name_))
+from datetime import datetime
+import time
+
+def lowercase(func):
+    def wrapper():
+        result = func()
+        return result.lower()
+    return wrapper 
+
+def totalExeTime(func):
+    def wrapper():
+        start_time = datetime.now()
+        result = func()
+        print(result)
+        end_time = datetime.now()
+        final_time = end_time - start_time
+        print(final_time)
+        return final_time
+    return wrapper
+
+@totalExeTime
+@lowercase
+def name():
+    time.sleep(2)
+    return input("Enter your name :")
+
+print(name())
