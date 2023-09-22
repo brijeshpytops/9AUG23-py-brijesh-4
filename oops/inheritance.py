@@ -74,36 +74,60 @@ class a(animal):
 
 
 # herarchical inharitance
-class A:
-    def a(self):
-        print("I am from class A")
+# class A:
+#     def a(self):
+#         print("I am from class A")
 
-class A1(A):
-    def a1(self):
-        print("I am from class A1")
+# class A1(A):
+#     def a1(self):
+#         print("I am from class A1")
 
-class B1(A):
-    def b1(self):
-        print("I am from class B2")
+# class B1(A):
+#     def b1(self):
+#         print("I am from class B2")
 
-class A11(A1):
-    def a11(self):
-        print("I am from class A11")
+# class A11(A1):
+#     def a11(self):
+#         print("I am from class A11")
 
-class A111(A1):
-    def a111(self):
-        print("I am from class A111")
+# class A111(A1):
+#     def a111(self):
+#         print("I am from class A111")
 
-class B11(B1):
-    def b11(self):
-        print("I am from class B11")
+# class B11(B1):
+#     def b11(self):
+#         print("I am from class B11")
 
-class final(B11):
-    def b111(self):
-        print("I am from class B111")
+# class final(B11):
+#     def b111(self):
+#         print("I am from class B111")
 
-test = final()
-test.b111()
-test.b11()
-test.b1()
-test.a()
+# test = final()
+# test.b111()
+# test.b11()
+# test.b1()
+# test.a()
+
+
+# class A:
+#     def a(self):
+#         print("I am from class A")
+
+# class A1(A):
+#     def a1(self):
+#         print("I am from class A1")
+
+# class Aleft(A1):
+#     def aleft(self):
+#         print("I am from class Aleft")
+
+# class Aright(A1):
+#     def aright(self):
+#         print("I am from class Aright")
+
+# class A2(A):
+#     def a2(self):
+#         print("I am from class A2")
+
+# obj = C()
+# print(dir(obj))
